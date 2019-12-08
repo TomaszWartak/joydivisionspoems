@@ -1,6 +1,8 @@
+/* line 3, home_style.scss */
 .home_style_content {
   max-width: 450px;
-  margin: auto; }
+  margin: 0 auto; }
+  /* line 7, home_style.scss */
   .home_style_content h2 {
     background: lightgrey;
     color: grey;
@@ -9,18 +11,49 @@
     padding-left: 15px;
     margin-top: 1px;
     margin-bottom: 1px; }
+  /* line 17, home_style.scss */
   .home_style_content table {
     width: 450px;
     font-size: 14px; }
+    /* line 20, home_style.scss */
     .home_style_content table th, .home_style_content table td {
       border-bottom: 1px solid;
       padding-left: 15px; }
+    /* line 24, home_style.scss */
     .home_style_content table .role_style {
       color: grey; }
+  /* line 29, home_style.scss */
+  .home_style_content img {
+    width: 200px;
+    height: 200px; }
+  /* line 34, home_style.scss */
+  .home_style_content img:hover {
+    border-style: outset;
+    border-color: lightgrey;
+    border-width: thin; }
+  /* line 40, home_style.scss */
+  .home_style_content button {
+    font-size: 0.8em;
+    display: block;
+    margin: auto; }
 
-img:hover {
-  border-style: outset;
-  border-color: lightgrey;
-  border-width: thin; }
+/* line 48, home_style.scss */
+.button_link {
+  /* mouse over link */
+  /* selected link */ }
+  /* line 50, home_style.scss */
+  .button_link:visited {
+    color: darkgrey; }
+  /* line 54, home_style.scss */
+  .button_link:link {
+    color: darkgrey;
+    text-decoration: none; }
+  /* line 60, home_style.scss */
+  .button_link:hover {
+    color: darkgrey;
+    text-decoration: none; }
+  /* line 66, home_style.scss */
+  .button_link:active {
+    color: darkgrey; }
 
 /*# sourceMappingURL=home_style.css.map */

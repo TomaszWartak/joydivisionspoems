@@ -1,0 +1,54 @@
+/* line 5, home_style_responsive.scss */
+.home_style_content {
+  margin: auto; }
+  @media only screen and (max-width: 768px) {
+    /* line 5, home_style_responsive.scss */
+    .home_style_content {
+      /* For mobile phones: */ }
+      /* line 11, home_style_responsive.scss */
+      .home_style_content [class*="col-"] {
+        width: 100%; }
+      /* line 14, home_style_responsive.scss */
+      .home_style_content div {
+        background-color: blue; }
+      /* line 17, home_style_responsive.scss */
+      .home_style_content img {
+        width: 150px;
+        height: 150px; } }
+  @media only screen and (min-width: 769px) {
+    /* line 24, home_style_responsive.scss */
+    .home_style_content div {
+      background-color: green; }
+    /* line 27, home_style_responsive.scss */
+    .home_style_content img {
+      width: 200px;
+      height: 200px; } }
+  /* line 35, home_style_responsive.scss */
+  .home_style_content h2 {
+    width: parent;
+    background: lightgrey;
+    color: grey;
+    font-size: 16px;
+    line-height: 110%;
+    padding-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 1px; }
+  /* line 46, home_style_responsive.scss */
+  .home_style_content table {
+    width: parent;
+    font-size: 14px; }
+    /* line 49, home_style_responsive.scss */
+    .home_style_content table th, .home_style_content table td {
+      border-bottom: 1px solid;
+      padding-left: 15px; }
+    /* line 53, home_style_responsive.scss */
+    .home_style_content table .role_style {
+      color: grey; }
+
+/* line 60, home_style_responsive.scss */
+img:hover {
+  border-style: outset;
+  border-color: lightgrey;
+  border-width: thin; }
+
+/*# sourceMappingURL=home_style_responsive.css.map */

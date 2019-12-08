@@ -2,7 +2,7 @@ $content_width: 450px;
 
 .home_style_content {
 		max-width: $content_width;
-		margin: auto;
+		margin: 0 auto;
 
 		h2 {
 				background: lightgrey;
@@ -25,10 +25,45 @@ $content_width: 450px;
 						color: grey;
 				}
 		}
+
+		img {
+				width: 200px;
+				height: 200px;
+		}
+
+		img:hover {
+				border-style: outset;
+				border-color: lightgrey;
+				border-width: thin;
+		}
+
+		button {
+				font-size: 0.8em;
+				display: block;
+				margin: auto;
+		}
+
 }
 
-img:hover {
-	border-style: outset;
-	border-color: lightgrey;
-	border-width: thin;
+.button_link {
+
+		&:visited {
+				color: darkgrey;
+		}
+
+		&:link {
+				color: darkgrey;
+				text-decoration: none;
+		}
+
+		/* mouse over link */
+		&:hover {
+				color: darkgrey;
+				text-decoration: none;
+		}
+
+		/* selected link */
+		&:active {
+				color: darkgrey;
+		}
 }
