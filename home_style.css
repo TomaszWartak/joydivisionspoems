@@ -1,0 +1,26 @@
+.home_style_content {
+  max-width: 450px;
+  margin: auto; }
+  .home_style_content h2 {
+    background: lightgrey;
+    color: grey;
+    font-size: 16px;
+    line-height: 110%;
+    padding-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 1px; }
+  .home_style_content table {
+    width: 450px;
+    font-size: 14px; }
+    .home_style_content table th, .home_style_content table td {
+      border-bottom: 1px solid;
+      padding-left: 15px; }
+    .home_style_content table .role_style {
+      color: grey; }
+
+img:hover {
+  border-style: outset;
+  border-color: lightgrey;
+  border-width: thin; }
+
+/*# sourceMappingURL=home_style.css.map */

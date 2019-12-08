@@ -1,0 +1,30 @@
+/* line 3, album_style.scss */
+.album_style_content {
+  max-width: 200px;
+  margin: auto;
+  font-size: 14px; }
+
+/* line 9, album_style.scss */
+.back_to_main {
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid;
+  border-top-color: grey;
+  display: inline-block; }
+  /* line 17, album_style.scss */
+  .back_to_main:visited {
+    color: RoyalBlue; }
+  /* line 21, album_style.scss */
+  .back_to_main:hover {
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none; }
+
+/* line 29, album_style.scss */
+div li {
+  text-align: left;
+  margin: auto;
+  color: black; }
+
+/*# sourceMappingURL=album_style.css.map */

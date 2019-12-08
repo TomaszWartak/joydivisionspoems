@@ -1,0 +1,23 @@
+/* line 4, titles_style.scss */
+#main_title, #album_title, .poem_title {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; }
+
+/* line 11, titles_style.scss */
+#main_title {
+  background-color: grey;
+  color: white; }
+
+/* line 17, titles_style.scss */
+#album_title {
+  background-color: lightgrey;
+  color: black; }
+
+/* line 23, titles_style.scss */
+.poem_title {
+  background-color: lightgrey;
+  color: grey; }
+
+/*# sourceMappingURL=titles_style.css.map */
