@@ -1,0 +1,33 @@
+$width: 200px;
+
+.album_style_content {
+	max-width: $width;
+	margin: auto;
+	font-size: 14px;
+}
+
+.back_to_main {
+		width: $width;
+		font-size: 12px;
+		text-align: center;
+		border-top: 1px solid;
+		border-top-color: grey;
+		display: inline-block;
+
+		&:visited {
+				color: RoyalBlue;
+		}
+
+		&:hover {
+				background-color: lightgrey;
+				color: black;
+				text-decoration: none;
+		}
+
+}
+
+div li {
+		text-align: left;
+		margin: auto;
+		color: black;
+}

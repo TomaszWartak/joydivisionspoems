@@ -1,0 +1,27 @@
+$light_bkg_color: lightgrey;
+$dark_bkg_color: grey;
+
+%title {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main_title {
+    @extend %title;
+    background-color: $dark_bkg_color;
+    color: white;
+}
+
+#album_title {
+    @extend %title;
+    background-color: $light_bkg_color;
+    color: black;
+}
+
+.poem_title {
+    @extend %title;
+    background-color: $light_bkg_color;
+    color: grey;
+}

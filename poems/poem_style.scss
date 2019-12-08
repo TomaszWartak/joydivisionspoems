@@ -1,0 +1,31 @@
+$width: 450px;
+
+.poem_style_content {
+		max-width: $width;
+		margin: auto;
+		font-size: 14px;
+		line-height: 110%;
+}
+
+.back_to_album{
+		width: $width;
+		font-size: 12px;
+		text-align: center;
+		border-top: 1px solid;
+		border-top-color: grey;
+		display: inline-block;
+		&:visited {
+				color: RoyalBlue;
+		}
+		&:hover {
+				background-color: lightgrey;
+				color: grey;
+				text-decoration: none;
+		}
+}
+
+p {
+    font-style: italic;
+    font-weight: normal;
+    font-family: sans-serif;
+}
