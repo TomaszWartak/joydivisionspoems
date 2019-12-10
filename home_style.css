@@ -1,8 +1,35 @@
-/* line 3, home_style.scss */
+@charset "UTF-8";
+@media (min-width: 450px) {
+  /* line 5, home_style.scss */
+  div {
+    width: 450px; }
+    /* line 7, home_style.scss */
+    div img {
+      width: 200px;
+      height: 200px; } }
+@media (max-width: 449px) {
+  /* line 15, home_style.scss */
+  div {
+    min-width: 300px; }
+    /* line 17, home_style.scss */
+    div img {
+      width: 150px;
+      height: 150px; } }
+/* line 25, home_style.scss */
 .home_style_content {
-  max-width: 450px;
   margin: 0 auto; }
-  /* line 7, home_style.scss */
+  /* line 29, home_style.scss */
+  .home_style_content #album_col_1 {
+    float: right; }
+  /* line 34, home_style.scss */
+  .home_style_content #album_col_2 {
+    float:  left; }
+  /* line 39, home_style.scss */
+  .home_style_content img:hover {
+    border-style: outset;
+    border-color: lightgrey;
+    border-width: thin; }
+  /* line 45, home_style.scss */
   .home_style_content h2 {
     background: lightgrey;
     color: grey;
@@ -11,48 +38,39 @@
     padding-left: 15px;
     margin-top: 1px;
     margin-bottom: 1px; }
-  /* line 17, home_style.scss */
+  /* line 55, home_style.scss */
   .home_style_content table {
-    width: 450px;
-    font-size: 14px; }
-    /* line 20, home_style.scss */
+    font-size: 14px;
+    width: 100%; }
+    /* line 59, home_style.scss */
     .home_style_content table th, .home_style_content table td {
       border-bottom: 1px solid;
       padding-left: 15px; }
-    /* line 24, home_style.scss */
+    /* line 63, home_style.scss */
     .home_style_content table .role_style {
       color: grey; }
-  /* line 29, home_style.scss */
-  .home_style_content img {
-    width: 200px;
-    height: 200px; }
-  /* line 34, home_style.scss */
-  .home_style_content img:hover {
-    border-style: outset;
-    border-color: lightgrey;
-    border-width: thin; }
-  /* line 40, home_style.scss */
+  /* line 68, home_style.scss */
   .home_style_content button {
     font-size: 0.8em;
     display: block;
     margin: auto; }
 
-/* line 48, home_style.scss */
+/* line 78, home_style.scss */
 .button_link {
   /* mouse over link */
   /* selected link */ }
-  /* line 50, home_style.scss */
+  /* line 80, home_style.scss */
   .button_link:visited {
     color: darkgrey; }
-  /* line 54, home_style.scss */
+  /* line 84, home_style.scss */
   .button_link:link {
     color: darkgrey;
     text-decoration: none; }
-  /* line 60, home_style.scss */
+  /* line 90, home_style.scss */
   .button_link:hover {
     color: darkgrey;
     text-decoration: none; }
-  /* line 66, home_style.scss */
+  /* line 96, home_style.scss */
   .button_link:active {
     color: darkgrey; }
 
