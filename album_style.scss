@@ -1,13 +1,9 @@
-$width: 200px;
-
 .album_style_content {
-	max-width: $width;
-	margin: auto;
+	margin: 0 auto;
 	font-size: 14px;
 }
 
 .back_to_main {
-		width: $width;
 		font-size: 12px;
 		text-align: center;
 		border-top: 1px solid;
@@ -28,6 +24,34 @@ $width: 200px;
 
 div li {
 		text-align: left;
-		margin: auto;
+		margin: 0 auto;
 		color: black;
+}
+
+@media (min-width: 600px) {
+		.album_style_content {
+				background: yellow;
+				width: 200px;
+		}
+
+		.back_to_main {
+				width: 200px;
+		}
+}
+
+@media (max-width: 599px) {
+		.album_style_content {
+				background: orange;
+				width: 150px;
+				font-size: 12px;
+		}
+
+		ol {
+				/* margin-left: 0; */
+				padding-left: 25px;
+		}
+
+		.back_to_main {
+				width: 150px;
+		}
 }
