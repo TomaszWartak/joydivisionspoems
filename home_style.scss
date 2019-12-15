@@ -6,85 +6,12 @@ $color5: yellow;
 $color6: orange;
 $color7: DarkOrchid;
 
+$column_middle_width: 2%;
+
 .caption {
   /** background: blue; **/
   width: 150px;
   text-align: left;
-}
-
-@media (min-width: 750px) {
-		body {
-				/** background: $color1; **/
-				margin: 0 auto;
-		}
-
-		.column {
-	    float: left;
-	    width: 50%;
-	  }
-
-
-		#album_col_1 {
-				/** background: $color4; **/
-		}
-
-		#album_col_2 {
-				/** background: $color5; **/
-
-		}
-
-		img {
-				width: 200px;
-				height: 200px;
-		}
-
-	  .img1 {
-	    	float: right;
-	  }
-
-	  .img2 {
-	    	float: left;
-	  }
-}
-
-@media (max-width: 749px) {
-		body {
-				/** background: $color2; **/
-				margin: 0 auto;
-	}
-
-		.column {
-	    width: 100%;
-	    padding: 0px;
-	    border: 0px;
-	  }
-
-		#album_col_1 {
-				/** background: Aqua; **/
-		}
-
-		#album_col_2 {
-				/** background: Azure; **/
-
-		}
-
-		img {
-				width: 150px;
-				height: 150px;
-		}
-
-		.img1 {
-	      text-align: center;
-	  }
-
-	  .img2 {
-	      text-align: center;
-	  }
-
-		.caption {
-				margin: 0 auto;
-		}
-
 }
 
 img:hover {
@@ -93,8 +20,12 @@ img:hover {
 		border-width: thin;
 }
 
+.column_table {
+    /* background: orange; */
+    width: 100%;
+}
+
 h2 {
-		width: 100%;
 		background: lightgrey;
 		color: grey;
 		font-size: 16px;
@@ -102,13 +33,12 @@ h2 {
 		padding-left: 15px;
 		margin-top: 15px;
 		margin-bottom: 1px;
-		margin-right: 0px;
+		/* margin-right: 0px; */
 }
 
 table {
 		/** background: $color7; **/
 		font-size: 14px;
-		width: 100%;
 
 		th, td {
 				 border-bottom: 1px solid;
@@ -146,4 +76,102 @@ button {
 		&:active {
 				color: darkgrey;
 		}
+}
+
+@media (min-width: 750px) {
+
+    $image_size: 200px;
+
+		body {
+				/** background: $color1; **/
+				margin: 0 auto;
+		}
+
+  	.column {
+	    float: left;
+	    width: 49%;
+	  }
+
+    .column_middle {
+        width: $column_middle_width;
+    }
+
+		#album_col_1 {
+				/** background: $color4; **/
+		}
+
+		#album_col_2 {
+				/** background: $color5; **/
+
+		}
+
+		img {
+				width: $image_size;
+				height: $image_size;
+		}
+
+	  .img1 {
+	    	float: right;
+	  }
+
+	  .img2 {
+	    	float: left;
+	  }
+
+    h2, table {
+        width: $image_size*2;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 749px) {
+
+    $image_size: 150px;
+
+		body {
+				/** background: $color2; **/
+				margin: 0 auto;
+	  }
+
+		.column {
+	    width: 100%;
+	    padding: 0px;
+	    border: 0px;
+	  }
+
+    .column_middle {
+        width: 0%;
+    }
+
+		#album_col_1 {
+				/** background: Aqua; **/
+		}
+
+		#album_col_2 {
+				/** background: Azure; **/
+		}
+
+		img {
+				width: $image_size;
+				height: $image_size;
+		}
+
+		.img1 {
+	      text-align: center;
+	  }
+
+	  .img2 {
+	      text-align: center;
+	  }
+
+		.caption {
+				margin: 0 auto;
+		}
+
+    h2, table {
+        width: $image_size*2;
+        margin: 0 auto;
+    }
+
 }

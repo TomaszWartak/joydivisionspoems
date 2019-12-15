@@ -1,85 +1,22 @@
-/* line 9, home_style.scss */
+/* line 11, home_style.scss */
 .caption {
   /** background: blue; **/
   width: 150px;
   text-align: left; }
 
-@media (min-width: 750px) {
-  /* line 16, home_style.scss */
-  body {
-    /** background: $color1; **/
-    margin: 0 auto; }
-
-  /* line 21, home_style.scss */
-  .column {
-    float: left;
-    width: 50%; }
-
-  /* line 27, home_style.scss */
-  #album_col_1 {
-    /** background: $color4; **/ }
-
-  /* line 31, home_style.scss */
-  #album_col_2 {
-    /** background: $color5; **/ }
-
-  /* line 36, home_style.scss */
-  img {
-    width: 200px;
-    height: 200px; }
-
-  /* line 41, home_style.scss */
-  .img1 {
-    float: right; }
-
-  /* line 45, home_style.scss */
-  .img2 {
-    float: left; } }
-@media (max-width: 749px) {
-  /* line 51, home_style.scss */
-  body {
-    /** background: $color2; **/
-    margin: 0 auto; }
-
-  /* line 56, home_style.scss */
-  .column {
-    width: 100%;
-    padding: 0px;
-    border: 0px; }
-
-  /* line 62, home_style.scss */
-  #album_col_1 {
-    /** background: Aqua; **/ }
-
-  /* line 66, home_style.scss */
-  #album_col_2 {
-    /** background: Azure; **/ }
-
-  /* line 71, home_style.scss */
-  img {
-    width: 150px;
-    height: 150px; }
-
-  /* line 76, home_style.scss */
-  .img1 {
-    text-align: center; }
-
-  /* line 80, home_style.scss */
-  .img2 {
-    text-align: center; }
-
-  /* line 84, home_style.scss */
-  .caption {
-    margin: 0 auto; } }
-/* line 90, home_style.scss */
+/* line 17, home_style.scss */
 img:hover {
   border-style: outset;
   border-color: lightgrey;
   border-width: thin; }
 
-/* line 96, home_style.scss */
+/* line 23, home_style.scss */
+.column_table {
+  /* background: orange; */
+  width: 100%; }
+
+/* line 28, home_style.scss */
 h2 {
-  width: 100%;
   background: lightgrey;
   color: grey;
   font-size: 16px;
@@ -87,44 +24,129 @@ h2 {
   padding-left: 15px;
   margin-top: 15px;
   margin-bottom: 1px;
-  margin-right: 0px; }
+  /* margin-right: 0px; */ }
 
-/* line 108, home_style.scss */
+/* line 39, home_style.scss */
 table {
   /** background: $color7; **/
-  font-size: 14px;
-  width: 100%; }
-  /* line 113, home_style.scss */
+  font-size: 14px; }
+  /* line 43, home_style.scss */
   table th, table td {
     border-bottom: 1px solid;
     padding-left: 15px; }
-  /* line 117, home_style.scss */
+  /* line 47, home_style.scss */
   table .role_style {
     color: grey; }
 
-/* line 122, home_style.scss */
+/* line 52, home_style.scss */
 button {
   font-size: 12px;
   display: block;
   margin: auto; }
 
-/* line 128, home_style.scss */
+/* line 58, home_style.scss */
 .button_link {
   /* mouse over link */
   /* selected link */ }
-  /* line 130, home_style.scss */
+  /* line 60, home_style.scss */
   .button_link:visited {
     color: darkgrey; }
-  /* line 134, home_style.scss */
+  /* line 64, home_style.scss */
   .button_link:link {
     color: darkgrey;
     text-decoration: none; }
-  /* line 140, home_style.scss */
+  /* line 70, home_style.scss */
   .button_link:hover {
     color: darkgrey;
     text-decoration: none; }
-  /* line 146, home_style.scss */
+  /* line 76, home_style.scss */
   .button_link:active {
     color: darkgrey; }
+
+@media (min-width: 750px) {
+  /* line 85, home_style.scss */
+  body {
+    /** background: $color1; **/
+    margin: 0 auto; }
+
+  /* line 90, home_style.scss */
+  .column {
+    float: left;
+    width: 49%; }
+
+  /* line 95, home_style.scss */
+  .column_middle {
+    width: 2%; }
+
+  /* line 99, home_style.scss */
+  #album_col_1 {
+    /** background: $color4; **/ }
+
+  /* line 103, home_style.scss */
+  #album_col_2 {
+    /** background: $color5; **/ }
+
+  /* line 108, home_style.scss */
+  img {
+    width: 200px;
+    height: 200px; }
+
+  /* line 113, home_style.scss */
+  .img1 {
+    float: right; }
+
+  /* line 117, home_style.scss */
+  .img2 {
+    float: left; }
+
+  /* line 121, home_style.scss */
+  h2, table {
+    width: 400px;
+    margin: 0 auto; } }
+@media (max-width: 749px) {
+  /* line 132, home_style.scss */
+  body {
+    /** background: $color2; **/
+    margin: 0 auto; }
+
+  /* line 137, home_style.scss */
+  .column {
+    width: 100%;
+    padding: 0px;
+    border: 0px; }
+
+  /* line 143, home_style.scss */
+  .column_middle {
+    width: 0%; }
+
+  /* line 147, home_style.scss */
+  #album_col_1 {
+    /** background: Aqua; **/ }
+
+  /* line 151, home_style.scss */
+  #album_col_2 {
+    /** background: Azure; **/ }
+
+  /* line 155, home_style.scss */
+  img {
+    width: 150px;
+    height: 150px; }
+
+  /* line 160, home_style.scss */
+  .img1 {
+    text-align: center; }
+
+  /* line 164, home_style.scss */
+  .img2 {
+    text-align: center; }
+
+  /* line 168, home_style.scss */
+  .caption {
+    margin: 0 auto; }
+
+  /* line 172, home_style.scss */
+  h2, table {
+    width: 300px;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=home_style.css.map */
