@@ -1,31 +1,51 @@
+/** $width: 450px; **/
 /* line 3, poem_style.scss */
 .poem_style_content {
-  max-width: 450px;
-  margin: auto;
+  /** max-width: $width; **/
+  margin: 0 auto;
   font-size: 14px;
   line-height: 110%; }
 
 /* line 10, poem_style.scss */
+p {
+  font-style: italic;
+  font-weight: normal;
+  font-family: sans-serif; }
+
+/* line 16, poem_style.scss */
 .back_to_album {
-  width: 450px;
   font-size: 12px;
   text-align: center;
   border-top: 1px solid;
   border-top-color: grey;
   display: inline-block; }
-  /* line 17, poem_style.scss */
+  /* line 22, poem_style.scss */
   .back_to_album:visited {
     color: RoyalBlue; }
-  /* line 20, poem_style.scss */
+  /* line 25, poem_style.scss */
   .back_to_album:hover {
     background-color: lightgrey;
     color: grey;
     text-decoration: none; }
 
-/* line 27, poem_style.scss */
-p {
-  font-style: italic;
-  font-weight: normal;
-  font-family: sans-serif; }
+@media (min-width: 450px) {
+  /* line 33, poem_style.scss */
+  .poem_style_content {
+    width: 450px; }
+
+  /* line 37, poem_style.scss */
+  .back_to_album {
+    width: 450px;
+    /** background: yellow; **/ } }
+@media (max-width: 449px) {
+  /* line 44, poem_style.scss */
+  .poem_style_content {
+    width: 350px;
+    font-size: 12px; }
+
+  /* line 49, poem_style.scss */
+  .back_to_album {
+    width: 100%;
+    /** background: orange; **/ } }
 
 /*# sourceMappingURL=poem_style.css.map */

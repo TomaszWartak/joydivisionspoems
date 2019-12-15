@@ -21,7 +21,7 @@ img:hover {
 }
 
 .column_table {
-    /* background: orange; */
+    /** background: orange; **/
     width: 100%;
 }
 
@@ -53,6 +53,10 @@ button {
 		font-size: 12px;
 		display: block;
 		margin: auto;
+}
+
+btn-dark {
+    font-size: 12px;
 }
 
 .button_link {
