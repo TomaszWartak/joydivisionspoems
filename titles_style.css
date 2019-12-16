@@ -1,4 +1,3 @@
-/*grey;*/
 /* line 4, titles_style.scss */
 #main_title, #album_title, .poem_title {
   font-family: sans-serif;
@@ -8,7 +7,7 @@
 
 /* line 11, titles_style.scss */
 #main_title {
-  background-color: red;
+  background-color: grey;
   color: white; }
 
 /* line 17, titles_style.scss */
