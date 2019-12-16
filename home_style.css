@@ -83,72 +83,56 @@ btn-dark {
     width: 2%; }
 
   /* line 103, home_style.scss */
-  #album_col_1 {
-    /** background: $color4; **/ }
-
-  /* line 107, home_style.scss */
-  #album_col_2 {
-    /** background: $color5; **/ }
-
-  /* line 112, home_style.scss */
   img {
     width: 200px;
     height: 200px; }
 
-  /* line 117, home_style.scss */
+  /* line 108, home_style.scss */
   .img1 {
     float: right; }
 
-  /* line 121, home_style.scss */
+  /* line 112, home_style.scss */
   .img2 {
     float: left; }
 
-  /* line 125, home_style.scss */
+  /* line 116, home_style.scss */
   h2, table {
     width: 400px;
     margin: 0 auto; } }
 @media (max-width: 749px) {
-  /* line 136, home_style.scss */
+  /* line 127, home_style.scss */
   body {
     /** background: $color2; **/
     margin: 0 auto; }
 
-  /* line 141, home_style.scss */
+  /* line 132, home_style.scss */
   .column {
     width: 100%;
     padding: 0px;
     border: 0px; }
 
-  /* line 147, home_style.scss */
+  /* line 138, home_style.scss */
   .column_middle {
     width: 0%; }
 
-  /* line 151, home_style.scss */
-  #album_col_1 {
-    /** background: Aqua; **/ }
-
-  /* line 155, home_style.scss */
-  #album_col_2 {
-    /** background: Azure; **/ }
-
-  /* line 159, home_style.scss */
+  /* line 142, home_style.scss */
   img {
     width: 150px;
     height: 150px; }
 
-  /* line 164, home_style.scss */
+  /* line 147, home_style.scss */
   .img1 {
     text-align: center; }
 
-  /* line 168, home_style.scss */
+  /* line 151, home_style.scss */
   .img2 {
     text-align: center; }
 
-  /* line 172, home_style.scss */
+  /* line 155, home_style.scss */
   .caption {
     margin: 0 auto; }
 
-  /* line 176, home_style.scss */
+  /* line 159, home_style.scss */
   h2, table {
     width: 300px;
     margin: 0 auto; } }
