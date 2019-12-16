@@ -28,25 +28,23 @@ div li {
 @media (min-width: 300px) {
   /* line 32, album_style.scss */
   .album_style_content {
-    /** background: yellow; **/
     width: 200px; }
 
-  /* line 37, album_style.scss */
+  /* line 36, album_style.scss */
   .back_to_main {
     width: 200px; } }
 @media (max-width: 299px) {
-  /* line 43, album_style.scss */
+  /* line 42, album_style.scss */
   .album_style_content {
-    /** background: orange; **/
     width: 150px;
     font-size: 12px; }
 
-  /* line 49, album_style.scss */
+  /* line 47, album_style.scss */
   ol {
     /* margin-left: 0; */
     padding-left: 25px; }
 
-  /* line 54, album_style.scss */
+  /* line 52, album_style.scss */
   .back_to_main {
     width: 150px; } }
 

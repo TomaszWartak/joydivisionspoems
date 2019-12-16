@@ -1,21 +1,24 @@
-/* line 11, home_style.scss */
-.caption {
-  /** background: blue; **/
-  width: 150px;
-  text-align: left; }
+/* line 3, home_style.scss */
+img {
+  width: 200px;
+  height: 200px; }
 
-/* line 17, home_style.scss */
+/* line 8, home_style.scss */
 img:hover {
   border-style: outset;
   border-color: lightgrey;
   border-width: thin; }
 
-/* line 23, home_style.scss */
+/* line 14, home_style.scss */
+.caption {
+  width: 200px;
+  text-align: left; }
+
+/* line 19, home_style.scss */
 .column_table {
-  /** background: orange; **/
   width: 100%; }
 
-/* line 28, home_style.scss */
+/* line 23, home_style.scss */
 h2 {
   background: lightgrey;
   color: grey;
@@ -26,115 +29,66 @@ h2 {
   margin-bottom: 1px;
   /* margin-right: 0px; */ }
 
-/* line 39, home_style.scss */
+/* line 34, home_style.scss */
 table {
   /** background: $color7; **/
   font-size: 14px; }
-  /* line 43, home_style.scss */
+  /* line 38, home_style.scss */
   table th, table td {
     border-bottom: 1px solid;
     padding-left: 15px; }
-  /* line 47, home_style.scss */
+  /* line 42, home_style.scss */
   table .role_style {
     color: grey; }
 
+/* line 47, home_style.scss */
+h2, table {
+  width: 400px;
+  margin: 0 auto; }
+
 /* line 52, home_style.scss */
 button {
-  font-size: 12px;
   display: block;
   margin: auto; }
 
-/* line 58, home_style.scss */
-btn-dark {
-  font-size: 12px; }
-
-/* line 62, home_style.scss */
+/* line 57, home_style.scss */
 .button_link {
   /* mouse over link */
   /* selected link */ }
-  /* line 64, home_style.scss */
+  /* line 59, home_style.scss */
   .button_link:visited {
     color: darkgrey; }
-  /* line 68, home_style.scss */
+  /* line 63, home_style.scss */
   .button_link:link {
     color: darkgrey;
     text-decoration: none; }
-  /* line 74, home_style.scss */
+  /* line 69, home_style.scss */
   .button_link:hover {
     color: darkgrey;
     text-decoration: none; }
-  /* line 80, home_style.scss */
+  /* line 75, home_style.scss */
   .button_link:active {
     color: darkgrey; }
 
-@media (min-width: 750px) {
-  /* line 89, home_style.scss */
-  body {
-    /** background: $color1; **/
-    margin: 0 auto; }
-
-  /* line 94, home_style.scss */
-  .column {
-    float: left;
-    width: 49%; }
-
-  /* line 99, home_style.scss */
-  .column_middle {
-    width: 2%; }
-
-  /* line 103, home_style.scss */
-  img {
-    width: 200px;
-    height: 200px; }
-
-  /* line 108, home_style.scss */
+@media (min-width: 992px) {
+  /* line 82, home_style.scss */
   .img1 {
     float: right; }
 
-  /* line 112, home_style.scss */
+  /* line 86, home_style.scss */
   .img2 {
-    float: left; }
-
-  /* line 116, home_style.scss */
-  h2, table {
-    width: 400px;
-    margin: 0 auto; } }
-@media (max-width: 749px) {
-  /* line 127, home_style.scss */
-  body {
-    /** background: $color2; **/
-    margin: 0 auto; }
-
-  /* line 132, home_style.scss */
-  .column {
-    width: 100%;
-    padding: 0px;
-    border: 0px; }
-
-  /* line 138, home_style.scss */
-  .column_middle {
-    width: 0%; }
-
-  /* line 142, home_style.scss */
-  img {
-    width: 150px;
-    height: 150px; }
-
-  /* line 147, home_style.scss */
+    float: left; } }
+@media (max-width: 991.98px) {
+  /* line 94, home_style.scss */
   .img1 {
     text-align: center; }
 
-  /* line 151, home_style.scss */
+  /* line 98, home_style.scss */
   .img2 {
     text-align: center; }
 
-  /* line 155, home_style.scss */
+  /* line 102, home_style.scss */
   .caption {
-    margin: 0 auto; }
-
-  /* line 159, home_style.scss */
-  h2, table {
-    width: 300px;
     margin: 0 auto; } }
 
 /*# sourceMappingURL=home_style.css.map */

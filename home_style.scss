@@ -1,17 +1,8 @@
-$color1: RoyalBlue;
-$color2: green;
-$color3: pink;
-$color4: red;
-$color5: yellow;
-$color6: orange;
-$color7: DarkOrchid;
+$image_size: 200px;
 
-$column_middle_width: 2%;
-
-.caption {
-  /** background: blue; **/
-  width: 150px;
-  text-align: left;
+img {
+    width: $image_size;
+    height: $image_size;
 }
 
 img:hover {
@@ -20,8 +11,12 @@ img:hover {
 		border-width: thin;
 }
 
+.caption {
+  width: $image_size;
+  text-align: left;
+}
+
 .column_table {
-    /** background: orange; **/
     width: 100%;
 }
 
@@ -49,14 +44,14 @@ table {
 		}
 }
 
-button {
-		font-size: 12px;
-		display: block;
-		margin: auto;
+h2, table {
+    width: $image_size*2;
+    margin: 0 auto;
 }
 
-btn-dark {
-    font-size: 12px;
+button {
+		display: block;
+		margin: auto;
 }
 
 .button_link {
@@ -82,28 +77,7 @@ btn-dark {
 		}
 }
 
-@media (min-width: 750px) {
-
-    $image_size: 200px;
-
-		body {
-				/** background: $color1; **/
-				margin: 0 auto;
-		}
-
-  	.column {
-	    float: left;
-	    width: 49%;
-	  }
-
-    .column_middle {
-        width: $column_middle_width;
-    }
-
-		img {
-				width: $image_size;
-				height: $image_size;
-		}
+@media (min-width: 992px) {
 
 	  .img1 {
 	    	float: right;
@@ -113,52 +87,20 @@ btn-dark {
 	    	float: left;
 	  }
 
-    h2, table {
-        width: $image_size*2;
-        margin: 0 auto;
-    }
-
 }
 
-@media (max-width: 749px) {
+@media (max-width: 991.98px) {
 
-    $image_size: 150px;
-
-		body {
-				/** background: $color2; **/
-				margin: 0 auto;
-	  }
-
-		.column {
-	    width: 100%;
-	    padding: 0px;
-	    border: 0px;
-	  }
-
-    .column_middle {
-        width: 0%;
+    .img1 {
+        text-align: center;
     }
 
-		img {
-				width: $image_size;
-				height: $image_size;
-		}
-
-		.img1 {
-	      text-align: center;
-	  }
-
-	  .img2 {
-	      text-align: center;
-	  }
+    .img2 {
+        text-align: center;
+    }
 
 		.caption {
 				margin: 0 auto;
 		}
-
-    h2, table {
-        width: $image_size*2;
-        margin: 0 auto;
-    }
 
 }
